@@ -5,13 +5,15 @@ title: Setup
 ## Set-up Instructions:
 
 ### Prerequirisite software:
-1. Anaconda
+1. Anaconda or Micromamba
 2. Python 3.x (<=3.10) 
 3. Jupyter Lab
 
 On **Windows**, this setup uses **Anaconda prompt** to install the prerequisites for the course. Experienced users may opt for other options such as **Git Bash** or **Windows Subsystem for Linux**
 
 ## Installing Python Using Anaconda
+
+If you want to instal Micromamba instead, please skip this and go to Option 2 below.
 
 [Python][python] is a popular language for scientific computing, and great for
 general-purpose programming as well. Installing all of its scientific packages
