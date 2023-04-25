@@ -358,6 +358,19 @@ b01.rio.to_raster("B01.tif")
 ~~~
 {: .language-python}
 
+## Saving the search
+
+We want to save the search we just conducted as a file, which we will use later on. We'll save the search as json, which is 
+a standard format for structured data. We need to import the json library, and then access the item collection as a python dictionary 
+(which is easily exported as json).
+
+~~~
+# save search to disk
+import json
+with open('search.json','w') as outfile:
+    json.dump(search.item_collection_as_dict(),outfile)
+~~~
+{: .language-python}
 
 > ## Exercise: Downloading Landsat 8 Assets
 > In this exercise we put in practice all the skills we have learned in this episode to retrieve images from a different
