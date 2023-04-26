@@ -150,11 +150,11 @@ Don't install anything. Just go to [this binder link](https://mybinder.org/v2/gh
   	
 # Download files
 
-We'll use some files on day two. Download them and move then to a location where you can fine them
+We'll use some files on day two. Download them and move then to a location where you can find them
 
-       * [brpgewaspercelen_definitief_2020_small.gpkg](https://figshare.com/ndownloader/files/37729413)
-       * [brogmwvolledigeset.zip](https://figshare.com/ndownloader/files/37729416)
-       * [status_vaarweg.zip](https://figshare.com/ndownloader/files/37729419)
+- [brpgewaspercelen_definitief_2020_small.gpkg](https://figshare.com/ndownloader/files/37729413)
+- [brogmwvolledigeset.zip](https://figshare.com/ndownloader/files/37729416)
+- [status_vaarweg.zip](https://figshare.com/ndownloader/files/37729419)
 
 
 [anaconda]: https://www.anaconda.com/
