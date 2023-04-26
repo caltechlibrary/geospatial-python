@@ -453,3 +453,18 @@ Note that the `DataArray.plot.imshow()` function makes assumptions about the sha
 > > ![Amsterdam true color overview equal aspect](../fig/E06-05-overview-plot-true-color-aspect-equal.png)
 > {: .solution}
 {: .challenge}
+
+You can create multiple plots in the same figure by setting up a matplot figure, and then passing the axes to the rioxarray objects.
+
+~~~
+import matplotlib.pyplot
+
+fig = matplotlib.pyplot.figure(figsize=(10.0, 4.0))
+
+axes1 = fig.add_subplot(1, 2, 1)
+axes2 = fig.add_subplot(1, 2, 2)
+
+raster_ams_overview.plot.imshow(ax=axes1)
+raster_ams_b9.plot(ax=axes2)
+~~~
+{: .language-python}
