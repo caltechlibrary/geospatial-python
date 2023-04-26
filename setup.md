@@ -146,9 +146,16 @@ code on the terminal/anaconda prompt:
 
 ## Option 3 Using Binder
 
-Don't instal anything. Just go to https://mybinder.org/v2/gh/caltechlibrary/geospatial-python/HEAD?urlpath=lab in your web browser.
+Don't install anything. Just go to [this binder link](https://mybinder.org/v2/gh/caltechlibrary/geospatial-python/HEAD?urlpath=lab) in your web browser.
   	
-    
+# Download files
+
+We'll use some files on day two. Download them and move then to a location where you can fine them
+
+       * [brpgewaspercelen_definitief_2020_small.gpkg](https://figshare.com/ndownloader/files/37729413)
+       * [brogmwvolledigeset.zip](https://figshare.com/ndownloader/files/37729416)
+       * [status_vaarweg.zip](https://figshare.com/ndownloader/files/37729419)
+
 
 [anaconda]: https://www.anaconda.com/
 [anaconda-mac]: https://www.anaconda.com/download/#macos
